@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Ventana de aluminio 1.00 x 1.00</title>
+  <title>Ventanas de aluminio </title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -43,11 +43,24 @@
   <div id="topbar" class="fixed-top d-flex align-items-center ">
     <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
 
-      
+      <div class="cta d-none d-md-block">
+        <a href="index.html" class="scrollto">Inicio</a>
+      </div>
     </div>
   </div>
 
   <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center ">
+    <div class="container d-flex align-items-center justify-content-between">
+
+
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href=index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+
+
+    </div>
+  </header><!-- End Header -->
 
 
   <main id="main">
@@ -55,51 +68,34 @@
 
     <!-- ======= Portfoio Section ======= -->
     <section id="portfolio" class="portfoio">
-      <div class="container" data-aos="fade-up">        
+      <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <a href="index.html" class="scrollto">Volver al menú principal </a>
-          <h2>Ventana de aluminio 1.00 x 1.00</h2>
+          <h2> Ventanas de aluminio </h2>
 
         </div>
 
         <div class="row">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">Ventana de aluminio corrediza con vidrio de 3mm. Línea herrero .Medidas: 1.00 x 1.00 </li>              
+              <li data-filter="*" class="filter-active">Todas</li>
+              <li data-filter=".filter-Herrero">Herrero</li>
+              <li data-filter=".filter-Abrir">Cierre Lateral</li>
+              <li data-filter=".filter-Corredizas">Con rejas</li>
             </ul>
           </div>
         </div>
 
         <div class="row portfolio-container">
 
-          <div class="col-lg-4 col-md-6 portfolio-item ciega">
+          
+          <div class="col-lg-4 col-md-6 portfolio-item filter-Herrero">
             <img src="assets/img/1.0x1.0-al/01.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">          
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item ciega">
-            <img src="assets/img/1.0x1.0-al/02.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">          
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item ciega">
-            <img src="assets/img/1.0x1.0-al/03.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">          
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item ciega">
-            <img src="assets/img/1.0x1.0-al/04.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">          
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item ciega">
-            <img src="assets/img/1.0x1.0-al/05.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">          
+            <div class="portfolio-info">
+              <h4></h4>
+              <p>Vtna corrediza 1.0 x 1.0</p>
+              <a href="assets/img/1.0x1.0-al/01.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
+              <a href="vtna-al-1x1.html" class="details-link" title="Mas Detalles"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
@@ -145,7 +141,32 @@
 
           </div>
 
+          <div class="col-lg-6 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="100">
 
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Su Nombre" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Su Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Cargando</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Su mensaje será enviado. Gracias!</div>
+              </div>
+              <div class="text-center"><button type="submit">Enviar mensaje</button></div>
+            </form>
+
+          </div>
 
         </div>
 
